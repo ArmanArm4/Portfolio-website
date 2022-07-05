@@ -1,0 +1,62 @@
+nav {
+  background-color: black;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 64px;
+}
+.logo {
+  background-image: url("../../images/Blue_planet_icon.png");
+  width: 47px;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav ul {
+  display: flex;
+  gap: 36px;
+}
+nav ul li:nth-child(1) {
+  color: #f99750;
+}
+nav ul li:nth-child(2) {
+  color: #62b7c2;
+}
+nav ul li:nth-child(3) {
+  color: #53b4ef;
+}
+@media (max-width: 1032px) {
+  nav {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 760px) {
+  nav {
+    height: 42px;
+    padding: 0px 32px;
+  }
+  .logo {
+    width: 36px;
+    aspect-ratio: 1/1;
+  }
+  nav ul {
+    display: flex;
+    gap: 28px;
+  }
+}
+@media (max-width: 530px) {
+}
+@media (max-width: 454px) {
+  nav ul {
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 448px) {
+}
+@media (max-width: 400px) {
+}
