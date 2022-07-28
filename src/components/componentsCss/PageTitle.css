@@ -16,6 +16,12 @@
 .GreenType span {
   color: #62b7c2;
 }
+.blueType {
+  color: #173336;
+}
+.blueType span {
+  color: #53b4ef;
+}
 @media (max-width: 1032px) {
   .h2 {
     margin-bottom: 32px;

@@ -19,6 +19,9 @@ nav ul {
   display: flex;
   gap: 36px;
 }
+nav li {
+  cursor: pointer;
+}
 nav ul li:nth-child(1) {
   color: #f99750;
 }

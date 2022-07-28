@@ -23,3 +23,12 @@
   background-color: #f99750;
   color: #ffffff;
 }
+.blue {
+  background-color: #173336;
+  color: #53b4ef;
+  border: 1px solid #53b4ef;
+}
+.blue:hover {
+  background-color: #53b4ef;
+  color: #173336;
+}

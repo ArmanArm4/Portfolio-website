@@ -1,10 +1,10 @@
 import React from "react";
 import "./componentsCss/PageTitle.css";
 
-function PageTitle({ type }) {
+function PageTitle({ type, text_a, text_b }) {
   return (
     <h2 className={`h2 ${type}`}>
-      My <span>Projects</span>
+      {text_a} <span>{text_b}</span>
     </h2>
   );
 }
