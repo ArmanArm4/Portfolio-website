@@ -1,0 +1,39 @@
+.h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 64px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.OrangeType span {
+  color: #f99750;
+}
+.GreenType {
+  color: white;
+}
+.GreenType span {
+  color: #62b7c2;
+}
+.blueType {
+  color: #173336;
+}
+.blueType span {
+  color: #53b4ef;
+}
+@media (max-width: 1032px) {
+  .h2 {
+    margin-bottom: 32px;
+  }
+}
+/* @media (max-width: 760px) {
+}
+@media (max-width: 530px) {
+}
+@media (max-width: 454px) {
+}
+@media (max-width: 448px) {
+}
+@media (max-width: 400px) {
+} */

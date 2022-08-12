@@ -1,0 +1,53 @@
+.skills_card {
+  color: white;
+  width: calc(100% / 6);
+}
+.skills_card p {
+  margin: 0;
+  margin-top: 16px;
+}
+.skills_card .icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.skills_card .js {
+  background-image: url("../../images/JS-icon.png");
+}
+.skills_card .figma {
+  background-image: url("../../images/Figma_icon.png");
+}
+.skills_card .html {
+  background-image: url("../../images/Html5_icon.png");
+}
+.skills_card .react {
+  background-image: url("../../images/React_icon.png");
+}
+.skills_card .css {
+  background-image: url("../../images/CSS3_icon.png");
+}
+.skills_card .git {
+  background-image: url("../../images/Github_icon.png");
+}
+@media (max-width: 1032px) {
+}
+@media (max-width: 760px) {
+  .skills_card {
+    width: 100%;
+  }
+  .skills_card p {
+    margin-top: 8px;
+  }
+}
+@media (max-width: 530px) {
+}
+@media (max-width: 454px) {
+}
+@media (max-width: 448px) {
+}
+@media (max-width: 400px) {
+}
+@media (max-width: 400px) {
+}

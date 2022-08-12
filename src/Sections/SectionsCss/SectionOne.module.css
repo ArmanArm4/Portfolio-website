@@ -1,0 +1,166 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+video {
+  width: 100vw;
+  max-width: 1364px;
+  aspect-ratio: 1364/284;
+  background-color: black;
+}
+.videoFrame {
+  background-image: url("../../images/Mask.png");
+  width: 100%;
+  height: 285px;
+  position: relative;
+  top: -113px;
+  transform: scaleX(1.001);
+  display: flex;
+  align-items: flex-end;
+  padding-left: 124px;
+}
+
+.videoFrame::after {
+  content: "";
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  right: 124px;
+  background-image: url("../../images/Group_33.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.videoFrame p {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+.videoFrame > div {
+  position: relative;
+  transform: translateY(30px);
+}
+.videoFrame p:nth-last-of-type(1) {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 1032px) {
+  .videoFrame {
+    padding-left: 96px;
+  }
+  .videoFrame::after {
+    width: 200px;
+    height: 200px;
+    top: -36px;
+    right: 96px;
+  }
+  .videoFrame p {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 760px) {
+  .videoFrame {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .videoFrame > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .videoFrame::after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 16px;
+    right: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .videoFrame p {
+    font-size: 28px;
+    text-align: center;
+  }
+  .videoFrame > div {
+    position: relative;
+    transform: translateY(55px);
+  }
+  .videoFrame button {
+    transform: translateY(10px);
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(50px);
+  }
+}
+@media (max-width: 530px) {
+  .videoFrame::after {
+    width: 200px;
+    height: 200px;
+    top: 16px;
+  }
+  .videoFrame p {
+    font-size: 24px;
+    text-align: center;
+  }
+  .videoFrame > div {
+    position: relative;
+    transform: translateY(42px);
+    margin: 0px 32px;
+  }
+  .videoFrame button {
+    transform: translateY(10px);
+  }
+}
+@media (max-width: 454px) {
+  .videoFrame p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .videoFrame > div {
+    position: relative;
+    transform: translateY(30px);
+    margin: 0px 32px;
+  }
+}
+@media (max-width: 448px) {
+  .videoFrame::after {
+    width: 160px;
+    height: 160px;
+    top: 26px;
+  }
+}
+@media (max-width: 400px) {
+  .videoFrame p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .videoFrame > div {
+    position: relative;
+    transform: translateY(30px);
+    margin: 0px 32px;
+  }
+  .videoFrame::after {
+    width: 160px;
+    height: 160px;
+    top: 55px;
+  }
+}
+@media (max-width: 400px) {
+  .videoFrame p {
+    font-size: 16px;
+    text-align: center;
+  }
+}
