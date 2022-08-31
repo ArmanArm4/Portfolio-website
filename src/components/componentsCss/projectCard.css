@@ -1,25 +1,25 @@
 .project_card {
-  width: 25%;
+  width: 17%;
 }
 .planetIcon {
   width: 100%;
-  aspect-ratio: 261/234.43;
+  aspect-ratio: 1/1;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   margin-bottom: 16px;
 }
-.orangeIcon {
-  background-image: url("../../images/Orange_planet_icon.png");
+.cart {
+  background-image: url("../../images/cart_icon.png");
 }
-.purpleIcon {
-  background-image: url("../../images/purple_planet_icon.png");
+.tracker {
+  background-image: url("../../images/tracker_icon.png");
 }
-.greenIcon {
-  background-image: url("../../images/Green_planet_icon.png");
+.game {
+  background-image: url("../../images/game_icon.png");
 }
-.lightBlueIcon {
-  background-image: url("../../images/lightBlue_planet_icon.png");
+.chess {
+  background-image: url("../../images/cart_icon.png");
 }
 .project_card p {
   text-decoration: underline;
@@ -45,7 +45,6 @@
   }
   .planetIcon {
     width: 100%;
-    aspect-ratio: 261/234.43;
     margin-bottom: 16px;
   }
 

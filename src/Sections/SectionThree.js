@@ -15,7 +15,7 @@ const Skills = [
   ["html", "HTML5"],
   ["react", "React js"],
   ["css", "CSS3"],
-  ["git", "GitHub"],
+  ["git", "etc."],
 ];
 function SectionThree() {
   return (
@@ -32,7 +32,7 @@ function SectionThree() {
           variants={variants}
           transition={{ type: "spring", stiffness: 120, delay: 0.2 }}
         >
-          {Skills.map(skill => (
+          {Skills.map((skill) => (
             <SkillsCard name={skill[1]} icon={skill[0]}></SkillsCard>
           ))}
         </motion.main>

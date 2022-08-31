@@ -7,6 +7,11 @@
   display: flex;
   gap: 64px;
 }
+.cardsParent {
+  display: flex;
+
+  justify-content: space-between;
+}
 @media (max-width: 1032px) {
   .section {
     padding: 32px 32px 92px 32px;

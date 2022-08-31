@@ -10,7 +10,6 @@ function Nav() {
         <motion.div
           animate={{ rotate: 360 }}
           transition={{
-            repeat: 4,
             duration: 2,
             type: "spring",
             stiffness: 200,
@@ -27,7 +26,7 @@ function Nav() {
           <Link to="section_3">Skills</Link>
         </li>
         <li className={classes.link}>
-          <a href="#">Github</a>
+          <a href="https://github.com/ArmanArm4?tab=repositories">Github</a>
         </li>
       </ul>
     </nav>

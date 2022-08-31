@@ -4,19 +4,23 @@ import "./componentsCss/button.css";
 
 function ProjectCard({ name, icon }) {
   let linkToGit = "";
-  let linkToDemo = "";
+  let linkToDemo = "https://www.schemecolor.com/go-diving.php";
   switch (name) {
     case "Plane tracker (Git)":
       linkToGit = "https://github.com/ArmanArm4/Flight-Tracker";
+      linkToDemo = "https://planetracker.netlify.app";
       break;
     case "Spooky game (Git)":
-      linkToGit = "#";
+      linkToGit = "https://github.com/ArmanArm4/Spooky-Game";
+      linkToDemo = "https://spookygame.netlify.app";
       break;
-    case "Commercial site (Git)":
-      linkToGit = "#";
+    case "Commercial app (Git)":
+      linkToGit = "https://github.com/ArmanArm4/UpStairs";
+      linkToDemo = "https://up-stairs.netlify.app";
       break;
     case "chess":
-      linkToGit = "#";
+      linkToGit = "https://github.com/ArmanArm4/chess";
+      linkToDemo = "https://up-stairs.netlify.app";
       break;
   }
   return (
@@ -27,11 +31,16 @@ function ProjectCard({ name, icon }) {
           {name}
         </a>
       </p>
-      <a href="#">
-        <button className="btn orange">
-          {name == "chess" ? "Coming soon" : "Live demo"}
-        </button>
-      </a>
+      {name == "chess" && (
+        <a target="_blank">
+          <button className="btn orange">Coming soon</button>
+        </a>
+      )}
+      {name != "chess" && (
+        <a href={linkToDemo} target="_blank">
+          <button className="btn orange">Live demo</button>
+        </a>
+      )}
     </div>
   );
 }

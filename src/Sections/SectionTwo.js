@@ -19,10 +19,10 @@ const variants = {
 };
 function SectionTwo() {
   const Links = [
-    ["orangeIcon", "Plane tracker (Git)"],
-    ["purpleIcon", "Spooky game (Git)"],
-    ["greenIcon", "Commercial site (Git)"],
-    ["lightBlueIcon", "chess"],
+    ["cart", "Commercial app (Git)"],
+    ["tracker", "Plane tracker (Git)"],
+    ["game", "Spooky game (Git)"],
+    ["chess", "chess"],
   ];
   return (
     <Element name="section_2">
@@ -37,8 +37,9 @@ function SectionTwo() {
           whileInView="visible"
           variants={variants}
           transition={{ type: "spring", stiffness: 120, delay: 0.2 }}
+          className={classes.cardsParent}
         >
-          {Links.map(link => (
+          {Links.map((link) => (
             <ProjectCard key={link} name={link[1]} icon={link[0]}></ProjectCard>
           ))}
         </motion.main>

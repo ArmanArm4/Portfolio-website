@@ -40,13 +40,16 @@ function SectionFour() {
         </motion.form>
         <div className={classes.illustration}>
           <div>
-            <a href="https://mail.google.com/mail/u/0/#search/armanmatevosyan470124%40gmail.com">
+            <a
+              href="https://mail.google.com/mail/u/0/#search/armanmatevosyan470124%40gmail.com"
+              target="_blank"
+            >
               <div className={classes.mail_icon}></div>
             </a>
-            <a href="https://github.com/ArmanArm4">
+            <a href="https://github.com/ArmanArm4" target="_blank">
               <div className={classes.git_icon}></div>
             </a>
-            <a href="https://www.instagram.com/am_01_01/">
+            <a href="https://www.instagram.com/am_01_01/" target="_blank">
               <div className={classes.insta_icon}></div>
             </a>
           </div>
